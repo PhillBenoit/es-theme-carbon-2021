@@ -3,48 +3,24 @@ based on carbon v2.4 by Rookervik
 based on simple(c) Nils Bonenberger - nilsbyte@nilsbyte.de - http://blog.nilsbyte.de/
 For use with EmulationStation (http://www.emulationstation.org/)
 
+https://github.com/RetroPie/es-theme-carbon-2021/pull/18
 
-Change Font:
-    Copy your font to "carbon/art" folder.
-    Open "carbon/theme.xml" with a text editor and change '<themeFont>./art/Cabin-Bold.ttf</themeFont>' to the path to your font.
-    This will have the theme use your font instead of what comes with Carbon.
+This branch now exists purely for archival purposes.  My changes were rejected
+but I think the people who love this system deserve to have a logo that
+represents them.  Per request of the repo owner, I preserved the logos in place
+and changed the color.  I was told the colors were ugly.  I imagine the
+response from the community would be "We know."
 
-Change Color:
-    Open "carbon/theme.xml" with a text editor and change '<themeColor>${colorRed}</themeColor>' to any of the colors listed above it.
+art/systems/moto.svg - my final attempt to make something for the main repo.
+Looks more like the screen found when searching images of the system but is not
+transparent.
 
-Change Sound:
-    Copy your wav file to "carbon/art" folder.
-	Open "carbon/theme.xml" with a text editor and change '<themeScrollSound>./art/scroll.wav</themeScrollSound>' to the path to your wav file.
+art/systems/moto2.svg - my next to last attempt.  Conforms more to carbon's
+standards of transparency.
 
-Changelog
-=========
 
-====2020/11/14===
-Rewritten from scratch to take advantage of new features in ES (variables and resolution)
 
-===08/16/2016===
-Added Super Grafx
-Added PC Engine CD-Rom²
-Added Turbo Grafx CD
-Removed metadata labels (only the actual meta data is shown)
-Re-positioned elements slightly
 
-===07/08/2016===
-Complete re-write.
-Simplified all system theme.xml files.
-Theme color can be changed by finding and replacing colors in carbon.xml
-UI flipped for left-to-right reading order
-Meta-data tags reduced to: released, genre, players, and description
-Kid-Friendly icons and code added
-Flipper sound removed
-
-===9/19/2015===
-Missing controllers added:
-Colecovision
-Gamecube
-PS2
-X-11
-Wii
 
 License
 =======
